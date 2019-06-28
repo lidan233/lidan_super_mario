@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lidan/CLionProjects/supermario/./src/game.h
+
+/Users/lidan/CLionProjects/supermario/./src/textures.h
+iostream
+-
+SDL/SDL.h
+-
+SDL/SDL_image.h
+-
+OpenGL/gl3.h
+-
+OpenGL/glu.h
+-
+GLUT/glut.h
+-
+
+/Users/lidan/CLionProjects/supermario/main.cpp
+iostream
+-
+SDL/SDL.h
+-
+OpenGL/gl3.h
+-
+OpenGL/glu.h
+-
+GLUT/glut.h
+-
+./src/textures.h
+/Users/lidan/CLionProjects/supermario/./src/textures.h
+./src/game.h
+/Users/lidan/CLionProjects/supermario/./src/game.h
+limits.h
+-
+stdlib.h
+-
+time.h
+-
+
